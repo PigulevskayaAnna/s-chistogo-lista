@@ -2,6 +2,7 @@
 body {
     font-family: 'Inter', serif, sans-serif;
     font-weight: 400;
+    color: #F5F5F5;
 }
 
 .content-section {
@@ -30,19 +31,20 @@ header {
     background-image: url(../images/cover.svg);
     background-size: 95% auto;
     min-height: 198px;
-    background-position: 121% 68%;
+    background-position: 110% 90%;
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-right: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .cover__title {
     width: 100%;
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond', sans-serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 100%;
+    color: #FFF;
 }
 
 .accent-span {
@@ -76,11 +78,11 @@ header {
 }
 
 .intro__main-text {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 137%;
+    line-height: 133%;
 }
 
 .indent {
@@ -105,15 +107,18 @@ header {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 133%;
 }
 
 .content-section__list-item {
     gap: 16px;
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 21.6px;
+    line-height: 133%;
+    margin-left: 15px;
 }
 
 .how-to {
@@ -149,14 +154,14 @@ header {
 .card__author-name {
     font-size: 16px;
     font-weight: 700;
-    line-height: 135%;
+    line-height: 128%;;
 }
 
 .card__title {
     font-family: 'EB Garamond', sans-serif;
     font-size: 22px;
     font-weight: 500;
-    line-height: 135%;
+    line-height: 128%;;
 }
 
 .card_title_bright {
@@ -170,16 +175,19 @@ header {
 .card__text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.6px;
+    line-height: 134%;
 }
 
 .card_text_bright {
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.6px;
+    line-height: 135%;
     color:#131313;
 }
 
+.bright__theme {
+    color:#131313;
+}
 
 footer {
     padding: 20px;
@@ -196,7 +204,16 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    
 }
+
+.social__networks a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
 .header_logo {
     width: 78px;
     height: 15px;
